@@ -5,6 +5,11 @@ import java.util.Map;
 public class palindromePermutation {
     public static void main( String[] args){
         System.out.println(isPalindromePermutation("love"));
+        System.out.println(isPalindromePermutation("obbos"));
+        System.out.println(isPalindromePermutation("pppp"));
+        System.out.println(isPalindromePermutation("p"));
+        System.out.println(isPalindromePermutation("pqrst"));
+        System.out.println(isPalindromePermutation("aabb"));
     }
 
     public static boolean isPalindromePermutation(String str){
