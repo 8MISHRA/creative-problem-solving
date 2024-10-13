@@ -1,3 +1,7 @@
+"""
+Min heap
+"""
+
 class minHeap(object):
     def __init__(self) -> None:
         pass
@@ -8,3 +12,4 @@ class minHeap(object):
             self.left = None
             self.right = None
             
+    
