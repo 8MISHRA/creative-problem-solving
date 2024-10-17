@@ -27,5 +27,13 @@ class nStackArray(object):
 
     def push(self, stackNo, e):
         """
-        param stack: in which stack to push?
+        Param stack: in which stack to push?
         """
+        pass 
+
+    def top(self, stackNo):
+        pass
+
+    def pop(self, stackNo):
+        pass 
+
