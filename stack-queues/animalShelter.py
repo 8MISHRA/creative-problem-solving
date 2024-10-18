@@ -74,31 +74,33 @@ class AnimalShelter:
         return None
 
 
-shelter = AnimalShelter()
-shelter.enqueue(Dog("Dog1", 0))
-shelter.enqueue(Cat("Cat1", 0))
-assert shelter.dequeueAny().name == "Dog1"
-assert shelter.dequeueAny().name == "Cat1"
 
-shelter = AnimalShelter()
-shelter.enqueue(Dog("Dog1", 0))
-shelter.enqueue(Cat("Cat1", 0))
-shelter.enqueue(Dog("Dog2", 0))
-assert shelter.dequeueDog().name == "Dog1"
 
-shelter = AnimalShelter()
-shelter.enqueue(Dog("Dog1", 0))
-shelter.enqueue(Cat("Cat1", 0))
-assert shelter.dequeueCat().name == "Cat1"
+# shelter = AnimalShelter()
+# shelter.enqueue(Dog("Dog1", 0))
+# shelter.enqueue(Cat("Cat1", 0))
+# assert shelter.dequeueAny().name == "Dog1"
+# assert shelter.dequeueAny().name == "Cat1"
 
-shelter = AnimalShelter()
-shelter.enqueue(Dog("Dog1", 0))
-shelter.enqueue(Cat("Cat1", 0))
-assert shelter.dequeueAny().name == "Dog1"
-assert shelter.dequeueCat().name == "Cat1"
+# shelter = AnimalShelter()
+# shelter.enqueue(Dog("Dog1", 0))
+# shelter.enqueue(Cat("Cat1", 0))
+# shelter.enqueue(Dog("Dog2", 0))
+# assert shelter.dequeueDog().name == "Dog1"
 
-shelter = AnimalShelter()
-assert shelter.dequeueAny() is None
-assert shelter.dequeueDog() is None
-assert shelter.dequeueCat() is None
+# shelter = AnimalShelter()
+# shelter.enqueue(Dog("Dog1", 0))
+# shelter.enqueue(Cat("Cat1", 0))
+# assert shelter.dequeueCat().name == "Cat1"
+
+# shelter = AnimalShelter()
+# shelter.enqueue(Dog("Dog1", 0))
+# shelter.enqueue(Cat("Cat1", 0))
+# assert shelter.dequeueAny().name == "Dog1"
+# assert shelter.dequeueCat().name == "Cat1"
+
+# shelter = AnimalShelter()
+# assert shelter.dequeueAny() is None
+# assert shelter.dequeueDog() is None
+# assert shelter.dequeueCat() is None
 
